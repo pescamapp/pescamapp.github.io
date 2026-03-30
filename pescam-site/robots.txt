@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /politica-de-privacidade/
+
+Sitemap: https://pescam.com.br/sitemap.xml
