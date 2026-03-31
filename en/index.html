@@ -2,56 +2,350 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>PesCam — Never Miss a Fish Strike Again</title>
-
-  <meta name="description" content="Record your fishing trips without missing the moment. PesCam saves the seconds BEFORE the strike — just like GoPro Hindsight, but on your phone.">
-
+  <meta name="description" content="PesCam records the seconds BEFORE the strike happens. Control it with the volume button without taking your hands off the rod. Free for Android. Never miss a fishing moment again.">
+  <meta name="keywords" content="fishing camera app, record fishing trips, never miss a fish strike, android fishing app, kayak fishing camera">
   <link rel="canonical" href="https://pescam.com.br/en/">
 
-  <!-- Hreflang -->
   <link rel="alternate" hreflang="pt-BR" href="https://pescam.com.br/">
   <link rel="alternate" hreflang="en" href="https://pescam.com.br/en/">
   <link rel="alternate" hreflang="es" href="https://pescam.com.br/es/">
   <link rel="alternate" hreflang="x-default" href="https://pescam.com.br/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph -->
+  <meta property="og:title" content="PesCam — Never Miss a Fish Strike Again">
+  <meta property="og:description" content="PesCam records the seconds BEFORE the strike happens. Free for Android.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pescam.com.br/en/">
+  <meta property="og:image" content="https://pescam.com.br/og-image.jpg">
+
+  <!-- Schema: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "PesCam",
+    "operatingSystem": "Android",
+    "applicationCategory": "UtilitiesApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free — 3 videos. Premium plan US$0.99/month."
+    },
+    "description": "Fishing recording app with retroactive buffer. It records the seconds before the strike happens. Control it with the volume button, without taking your hands off the rod.",
+    "url": "https://pescam.com.br/en/",
+    "author": { "@type": "Person", "name": "Felipe", "address": { "@type": "PostalAddress", "addressLocality": "Cuiabá", "addressRegion": "MT", "addressCountry": "BR" } }
+  }
+  </script>
+
+  <!-- Schema: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How does PesCam record before the strike happens?", "acceptedAnswer": { "@type": "Answer", "text": "PesCam keeps recording continuously in the background. When you press the volume button, it saves the last 10, 15 or 30 seconds — plus what you recorded after that. It is the same technology used by professional action cameras, but on your phone." } },
+      { "@type": "Question", "name": "Does PesCam work on any Android phone?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It works on any Android phone running Android 7.0 or newer. Most mid-range and flagship phones already support PesCam." } },
+      { "@type": "Question", "name": "Does PesCam need internet to record?", "acceptedAnswer": { "@type": "Answer", "text": "No. PesCam records offline with no internet needed. Perfect for rivers, lakes and fishing spots with no signal." } },
+      { "@type": "Question", "name": "Is PesCam really free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Your first 3 videos are completely free. For unlimited recordings, PesCam Premium costs only US$0.99 per month." } },
+      { "@type": "Question", "name": "Does PesCam work with a chest mount?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. PesCam was built exactly for that. With your phone on a chest mount, you control everything through the volume button without taking your hands off the rod." } }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../favicon.ico">
 </head>
+<body>
 
-<body style="font-family: Arial; background:#00473E; color:white; text-align:center; padding:40px;">
-
-  <div style="margin-bottom:20px;">
-    <a href="https://pescam.com.br/">PT</a> |
-    <a href="https://pescam.com.br/en/">EN</a> |
-    <a href="https://pescam.com.br/es/">ES</a>
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/en/" class="nav-logo">
+      <img src="../icon.png" alt="PesCam icon">
+      PesCam
+    </a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/en/how-to-record-fishing/">How to Record</a></li>
+      <li><a href="/en/fishing-camera/">Fishing Camera</a></li>
+      <li><a href="/en/kayak-fishing/">Kayak Fishing</a></li>
+      <li><a href="/en/app/" class="nav-cta">Download Free</a></li>
+      <li class="lang-item">
+        <a href="https://pescam.com.br/">PT</a>
+        <span>|</span>
+        <a href="https://pescam.com.br/en/">EN</a>
+        <span>|</span>
+        <a href="https://pescam.com.br/es/">ES</a>
+      </li>
+    </ul>
   </div>
+</nav>
 
-  <h1>Never Miss a Fish Strike Again</h1>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span>🎣</span> Smart Camera for Anglers
+      </div>
+      <h1>Never Miss<br><em>a Fish Strike</em></h1>
+      <p class="hero-sub">
+        PesCam records the seconds <strong style="color:var(--accent-warm)">BEFORE</strong> the moment happens.
+        Press the volume button. Your video already includes the strike.
+      </p>
+      <div class="hero-pills">
+        <span class="pill"><span class="pill-icon">📱</span> Your Android phone</span>
+        <span class="pill"><span class="pill-icon">🎬</span> Buffer up to 30 seconds</span>
+        <span class="pill"><span class="pill-icon">🔊</span> Volume button control</span>
+        <span class="pill"><span class="pill-icon">🆓</span> Free to start</span>
+      </div>
+      <div class="hero-actions">
+        <a href="/en/app/" class="btn-primary">📲 Download Free on Android</a>
+        <a href="#how-it-works" class="btn-secondary">See how it works</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-wrap">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <span class="phone-label">BUFFER RECORDING</span>
+            <div class="phone-counter" id="phone-counter">00:00</div>
+            <div class="phone-rec">
+              <div class="rec-dot"></div>
+              <span>● REC</span>
+            </div>
+            <div class="phone-btn">🎣</div>
+            <p class="phone-hint">Press volume<br>to save</p>
+          </div>
+          <div class="phone-glow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p>
-    PesCam turns your Android phone into a fishing action camera.
-    It records BEFORE you press the button.
-  </p>
+<!-- HOW IT WORKS -->
+<section class="section section-dark" id="how-it-works">
+  <div class="container">
+    <div class="section-label">How It Works</div>
+    <h2 class="section-title" style="color:var(--white)">Three steps. No hassle.</h2>
+    <p class="section-sub">Made for anglers, not tech people. Simple the way it should be.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Mount Your Phone</h3>
+        <p>Put your phone on a chest mount. PesCam automatically starts recording the background buffer right away.</p>
+        <span class="step-arrow">→</span>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Fish Normally</h3>
+        <p>Forget the phone. Hold the rod. The app is recording for you with no extra effort.</p>
+        <span class="step-arrow">→</span>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Press Volume</h3>
+        <p>Whenever you want to save — before, during or after the strike — press the volume button. The video already includes the earlier seconds.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p>
-    Just hit the volume button — and your video already includes the seconds before the strike.
-  </p>
+<!-- FEATURES -->
+<section class="section section-off">
+  <div class="container">
+    <div class="section-label">Features</div>
+    <h2 class="section-title">Why anglers choose PesCam</h2>
+    <p class="section-sub" style="color:var(--text-mid)">Every detail built for real fishing.</p>
+    <div class="features">
+      <div class="feature-card">
+        <div class="feature-icon">⏪</div>
+        <h3>Retroactive Buffer (Hindsight)</h3>
+        <p>Continuously records the last 10, 15 or 30 seconds. When you save, the video already includes the moment before the strike — just like a GoPro, but on your phone.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔊</div>
+        <h3>Volume Button Control</h3>
+        <p>One press saves the video. No touching the screen, no taking your eyes off the rod, no interrupting your fishing trip. Works with your phone on a chest mount.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌑</div>
+        <h3>Dark Screen — Saves Battery</h3>
+        <p>While recording, the screen dims to minimum brightness to save battery. Tap to wake it for 5 seconds. Essential for long fishing sessions.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎥</div>
+        <h3>Automatic Quality</h3>
+        <p>PesCam detects your phone and uses the best available quality: 4K, 1080p or 720p. EIS + OIS stabilization turns on automatically when supported.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h2>Perfect for:</h2>
+<!-- AUDIENCE -->
+<section class="section section-mid">
+  <div class="container">
+    <div class="section-label">Who It Is For</div>
+    <h2 class="section-title" style="color:var(--white)">Built for people who really fish</h2>
+    <p class="section-sub">From kayak anglers to weekend fishers.</p>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <span class="audience-icon">🚣</span>
+        <h3>Kayak Anglers</h3>
+        <p>Your hands are always on the paddle or the rod. Chest mount + PesCam is the perfect combo to record without losing control.</p>
+      </div>
+      <div class="audience-card">
+        <span class="audience-icon">🏆</span>
+        <h3>Sport Fishing</h3>
+        <p>Strikes happen when you least expect them. Retroactive buffer makes sure you never miss the moment.</p>
+      </div>
+      <div class="audience-card">
+        <span class="audience-icon">🌊</span>
+        <h3>Everyday Anglers</h3>
+        <p>An affordable solution without buying an expensive action camera. The phone you already own becomes your fishing camera.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p>Kayak fishing · Sport fishing · Weekend anglers</p>
+<!-- COMPARISON -->
+<section class="section section-white">
+  <div class="container">
+    <div class="section-label">Comparison</div>
+    <h2 class="section-title">PesCam vs GoPro vs DJI Osmo</h2>
+    <p class="section-sub" style="color:var(--text-mid)">Same core idea. No need to spend hundreds on extra hardware.</p>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="col-pescam">PesCam</th>
+            <th class="col-other">GoPro Hero 12</th>
+            <th class="col-other">DJI Osmo Action 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Price</td>
+            <td class="col-pescam yes">Free / US$0.99 mo</td>
+            <td>US$300+</td>
+            <td>US$350+</td>
+          </tr>
+          <tr>
+            <td>Retroactive Buffer</td>
+            <td class="col-pescam yes">Up to 30s</td>
+            <td class="yes">Up to 30s</td>
+            <td class="yes">Up to 30s</td>
+          </tr>
+          <tr>
+            <td>Volume Button Control</td>
+            <td class="col-pescam yes">Yes</td>
+            <td>Dedicated button</td>
+            <td>Dedicated button</td>
+          </tr>
+          <tr>
+            <td>Extra Hardware Needed</td>
+            <td class="col-pescam yes">Your current phone</td>
+            <td class="no">Separate camera</td>
+            <td class="no">Separate camera</td>
+          </tr>
+          <tr>
+            <td>Stabilization</td>
+            <td class="col-pescam yes">Automatic EIS + OIS</td>
+            <td class="yes">EIS</td>
+            <td class="yes">EIS + OIS</td>
+          </tr>
+          <tr>
+            <td>Works Offline</td>
+            <td class="col-pescam yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
 
-  <h2>Why PesCam?</h2>
+<!-- FAQ -->
+<section class="section section-off">
+  <div class="container-narrow">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-title">Common questions</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <div class="faq-q">How does PesCam record before the strike happens?</div>
+        <div class="faq-a">PesCam keeps recording continuously in the background. When you press the volume button, it saves the last 10, 15 or 30 seconds — plus what you recorded after that. It is the same technology used by professional action cameras, but on your phone.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Does it work on any Android phone?</div>
+        <div class="faq-a">Yes. It works on any Android phone running version 7.0 or newer. Most mid-range and flagship phones already support PesCam without issues.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Does it need internet to record?</div>
+        <div class="faq-a">No. PesCam records 100% offline. Perfect for rivers, lakes and places with no cell signal.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is it really free?</div>
+        <div class="faq-a">Yes. Your first 3 videos are completely free, with no signup and no card required. For unlimited recordings, PesCam Premium costs just US$0.99 per month.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What chest mount should I use with PesCam?</div>
+        <div class="faq-a">Any universal chest mount for smartphones will work. Adjustable models with a secure phone holder are the most recommended.</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p>✔ Records before the moment happens</p>
-  <p>✔ Works with volume button</p>
-  <p>✔ No GoPro needed</p>
-  <p>✔ Free to start</p>
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container-narrow">
+    <h2>Ready to stop missing fish strikes?</h2>
+    <p>Download it free. Test it today. Keep your next strike forever.</p>
+    <a href="/en/app/" class="btn-white">📲 Download PesCam Free</a>
+  </div>
+</section>
 
-  <br><br>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/en/" class="footer-logo">
+        <img src="../icon.png" alt="PesCam"> PesCam
+      </a>
+      <p class="footer-tagline">The fishing camera on the phone you already own.<br>Records before the strike. Controlled by volume button.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Content</h4>
+      <ul>
+        <li><a href="/en/how-to-record-fishing/">How to Record Fishing</a></li>
+        <li><a href="/en/fishing-camera/">Fishing Camera</a></li>
+        <li><a href="/en/never-miss-a-strike/">Never Miss a Strike</a></li>
+        <li><a href="/en/kayak-fishing/">Kayak Fishing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>App</h4>
+      <ul>
+        <li><a href="/en/app/">Download Free</a></li>
+        <li><a href="/politica-de-privacidade/">Privacy Policy</a></li>
+        <li><a href="mailto:admin@pescam.com.br">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 PesCam — Your Fishing Camera</span>
+    <span>admin@pescam.com.br · pescam.com.br</span>
+  </div>
+</footer>
 
-  <a href="#" style="background:#FF6B35; padding:15px 25px; color:white; text-decoration:none; border-radius:8px;">
-    Download on Android
-  </a>
-
+<script src="../main.js"></script>
 </body>
 </html>
